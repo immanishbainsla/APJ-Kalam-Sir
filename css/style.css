@@ -1,0 +1,137 @@
+/* CSS starts here */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* TITLE backgrounds */
+.bg1{
+	background-color: skyblue;
+}
+
+.bg2{
+	background-color: #bbeedd;
+}
+
+/* MAIN element */
+#main{
+	width: 100%;
+}
+
+/* TITLE element */
+#title{
+  color: #f34a4c;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	width:100%;
+	height: auto;
+}
+
+#title #h1{
+	font-size: 3rem;
+	padding-top:5px;
+}
+
+#h1:hover{
+	text-decoration: underline;
+}
+
+#h3:hover{
+	text-decoration: underline;
+}
+
+#title #h3{
+	font-size: 1.4em;
+	color: #ff4a1c;
+	padding-bottom: 7px;
+}
+
+/* IMAGE-DIV element */
+#img-div{
+	background-color: #bbeedd;
+  width: 100%;
+	height: auto;
+}
+
+/* IMG element */
+#image{
+  max-width: 80%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* IMG-CAPTION element */
+#image-caption{
+	width:100%;
+}
+
+#img-caption #p1{
+	text-align: center;
+	font-size: 1.1rem;
+	font-family: Courier;
+	font-weight: 600;
+	color: blue;
+	line-height: 35px;
+}
+
+#img-caption #p1:hover{
+	font-size: 1.2rem;
+}
+
+/* TRIBUTE-info element */
+#tribute-info #h2{
+	width: 100%;
+	text-align: center;
+	color: red;
+	font-family: Segoe Script;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#tribute-info #p2{
+  color: #ff6666;
+	text-align: justify;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 22px;
+}
+
+#p12{
+	padding: 5px;
+	background-color: #ddff9f;
+}
+
+ul{
+	padding-left: 16%;
+	padding-right: 16%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+li{
+	font-size: 1.1rem;
+	font-family: Segoe UI Symbol;
+	color: darkblue;
+	text-align: justify;
+	line-height: 25px;
+}
+
+/* FOOTER section */
+#footer{
+	line-height: 30px;
+	width: 100%;
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+#tribute-link{
+	text-align: center;
+}
+/* CSS ends here */
